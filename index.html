@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <title>Muntahi – SIA Door Supervisor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #f0f0f0;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1a1a1a;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "✔️ ";
+    }
+
+    .custom>li::before{
+      content: "";
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: #1a1a1a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .contact-form button:hover {
+      background-color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: white;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+
+      section {
+        padding: 20px 15px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 20px 10px;
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        font-size: 1rem;
+      }
+
+      .contact-form button {
+        width: 100%;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muntahi</h1>
+    <p>SIA Licensed Door Supervisor | Based in North London</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#availability">Availability</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a licensed SIA Door Supervisor with strong communication and conflict management skills. I recently completed my training with 1ACE Training in the UK, and I'm eager to bring my dedication to safety and customer service to a new role.
+    </p>
+    <p>
+      I previously worked for 2 years as a Security Officer at Yellow's Kitchen restaurant in Bangladesh, where I managed entry control, and ensured customer safety.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Key Skills</h2>
+    <ul>
+      <li>Communication & Observation</li>
+      <li>Conflict Management & De-escalation</li>
+      <li>Emergency First Aid (CPR Certified)</li>
+      <li>Fluent in English, Bengali, Hindi, Urdu</li>
+      <li>Punctual and Reliable</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <h3>Security Officer – Yellow's Kitchen, Bangladesh</h3>
+    <p><strong>Jan 2021 – Dec 2022</strong></p>
+    <ul>
+      <li>Monitored customer entry and ensured guest safety at all times</li>
+      <li>Controlled crowd flow during busy hours</li>
+      <li>Responded quickly to disturbances and emergencies</li>
+      <li>Worked closely with restaurant staff to maintain a secure environment</li>
+    </ul>
+  </section>
+
+  <section id="availability">
+    <h2>Availability</h2>
+    <p>I am available to work on:</p>
+    <ul>
+      <li>Tuesdays</li>
+      <li>Thursdays</li>
+      <li>Saturdays</li>
+      <li>Sundays</li>
+      <li>Night shifts & weekends preferred</li>
+    </ul>
+  </section>
+  <section id="availability">
+    <h2>Contact Me</h2>
+    <p>Contact me on available days:</p>
+    <ul class="custom">
+      <li><i class="fa fa-envelope"></i> Email: <a href="mailto:muntahi@example.com?subject=Job%20Opportunity&body=Hello%20Muntahi,%0DI'd%20like%20to%20discuss%20a%20job%20role%20with%20you.">saminhossain33@gmail.com</a></li>
+      <li><i class="fa fa-map-marker-alt"></i> &nbsp;Location: North London, UK</li>
+      <li><i class="fa fa-phone"></i> Phone: +44 7399 026367</li>
+      <li><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/447399026367" target="_blank">Chat with me</a></li>
+    </ul>
+  </section>
+
+  <!-- <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form" onsubmit="return sendMessage();">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section> -->
+
+  <footer>
+    <p>&copy; 2025 Muntahi – All rights reserved.</p>
+  </footer>
+
+  <script>
+    function sendMessage() {
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      if (!name || !email || !message) {
+        alert("Please fill out all fields.");
+        return false;
+      }
+
+      alert("Thank you, " + name + "! Your message has been sent.");
+      return false; // Prevent form submission since there's no backend
+    }
+  </script>
+
+</body>
+</html>
